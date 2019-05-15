@@ -1,0 +1,84 @@
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("Image/Background\ Image.png");
+    background-position: 0% 9%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.nav-link .navbar-brand{
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 3vw !important;
+}
+
+.nav-link{
+    font-size: 1.3vw;
+}
+
+.content{
+    margin-top: 17vw;
+    margin-bottom: 35vw;
+}
+
+h1{
+    font-size: 5vw !important;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.parallax{
+    height: 30vw;
+    background-image: url("Image/739905.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"]{
+    width: 20vw;
+}
+
+textarea{
+    width: 50vw;
+}
+
+.parallax2{
+    height: 40vw;
+    background-image: url("Image/pexels-photo-91229.jpeg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:black;
+    display: flex;
+    align-items: center;
+}
+
+.bbt{
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.count{
+    position: absolute;
+    top: 0;bottom: 0;left: 0;right: 0;
+    padding-top: 9vh;
+}
+
+.footer{
+    background-image: url("Image/Footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+}
